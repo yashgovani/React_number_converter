@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(45deg, #fe688b 30%, #ff8e53 90%);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: rgb(34, 34, 34);
+  background: #95d3ce;
+  padding: 0.4rem 0.9rem;
+  border: 3px solid #95d3ce;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background: transparent;
+  color: #95d3ce;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
